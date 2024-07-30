@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="styles/orders.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="amazon-logo-container">
+                <img src="images/amazon-logo-white.png" alt="Amazon-Logo" width="120" class="amazon-logo">
+            </div>
+        </div>
+
+        <div class="all-button-container">
+            <button class="all-button">All</button>
+        </div>
+
+        <div class="search-bar-container">
+            <input type="text" class="search-bar">
+        </div>
+
+        <div class="search-button-container">
+            <button class="search-button"><img src="images/icons/search-icon.png" alt="" width="27"></button>
+        </div>
+
+        <a href="checkout.html" class="checkout-link">
+            <div class="cart-container">
+                <div class="cart-quantity-container">
+                    <h3 class="cart-quantity"></h3>
+                </div>
+
+                <div class="cart-logo-container">
+                    <img src="images/icons/cart-icon.png" alt="" width="40">
+                </div>
+            </div></a>
+    </header>
+
+    <main>
+        <div class="your-order-text-container">
+            <h2>Your orders</h2>
+        </div>
+
+        <div class="products-order-container">
+            <div class="products-order-header-container">
+                <div class="date-container">
+                    <b>Order Placed</b><br>
+                    12-august-2023
+                </div>
+
+                <div class="total-cost-contianer">
+                    <b>Total Cost</b><br>
+                    $14.55
+                </div>
+
+                <div class="order-id-container">
+                    <b>Order ID:</b><br>
+                    27cba69d-4c3d-4098-b42d-ac7fa62b7664
+                </div>
+            </div>
+
+
+            <div class="products-order-body-container">
+
+                <div class="product-container flex-container">
+                    <div class="product-image-container">
+                        <img src="images/products/intermediate-composite-basketball.jpg" alt="" width="120">
+                    </div>
+
+                    <div class="product-info-container">
+                        <div class="product-name-container">
+                            <b>Intermediate Size Basketball</b>
+                        </div>
+
+                        <div class="arrival-date-container">
+                            Arriving on: August 15
+                        </div>
+
+                        <div class="product-quantity-container">
+                            Quantity: 1
+                        </div>
+
+                        <div class="buy-it-again-button-container">
+                            <button class="buy-it-again-button">Buy it again</button>
+                        </div>
+                    </div>
+
+                    <div class="track-package-button-container">
+                        <button class="track-package-button">Track Package</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </main>
+
+    
+    <script src="https://unpkg.com/dayjs@1.11.10/dayjs.min.js"></script>
+    <script type="module" src="./scripts/orders.js"></script>
+    
+</body>
+</html>

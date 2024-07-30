@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(19, 25, 33);
+    display: flex;
+}
+
+.amazon-logo-container{
+    height: 100px;
+}
+.amazon-logo{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.all-button-container{
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.all-button{
+    height: 34px;
+    width: 34px;
+    margin-right: -1px;
+    background-color: orange;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.search-bar-container{
+    margin-top: 25px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.search-bar{
+    height: 30px;
+    width: 500px;
+    padding-left: 20px;
+}
+
+.search-button-container{
+    margin-top: 25px;
+}
+
+
+.search-button{
+    height: 34px;
+    margin-left: -1px;
+    background-color: orange;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.orders-page-link-container{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.orders-page-link-container a{
+    color: white;
+}
+
+.cart-container{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.cart-quantity-container{
+    margin-left: 17px;
+    margin-bottom: -10px;
+    color: orange;
+}
+
+.products-grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    row-gap: 60px;
+}
+
+.product-container{
+    border-right: 1px solid rgb(148, 148, 148);
+    padding-left: 30px;
+}
+
+.product-image-container{
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product-name-container{
+    margin-bottom: 10px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.product-price-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-rating-container{
+    margin-bottom: 20px;
+}
+
+.add-to-cart-button{
+    padding: 10px 60px;
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}

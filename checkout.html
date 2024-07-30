@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <link rel="stylesheet" href="./styles/checkout.css">
+</head>
+
+<body>
+    <header>
+        <div class="amazon-logo-container">
+            <a href="amazon.html"><img src="images/amazon-logo.png" alt="" width="120" class="amazon-logo"></a>
+        </div>
+
+        <div class="items-quantity-number-container">
+            <h2>Checkout (3 items)</h2>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="review-order-container">
+            <h2>Review your order</h2>
+        </div>
+
+        <div class="flex-container">
+            <div class="products-container">
+            </div>
+
+            <div class="bill-container">
+
+                <div class="order-summary-text-container">
+                    <h3>Order Summary</h3>
+                    <span class="bill-items-quantity-container">items (3)</span>
+                    <span class="bill-price-container">$0.00</span>
+
+                    <div class="bill-shipping-cost-container">
+                        <span class="bill-shipping-cost-property">Shipping & handling</span>
+                        <span class="bill-shipping-cost-value">$4</span>
+
+
+                    </div>
+
+                    <div class="before-tax-container">
+                        <span class="bill-total-before-tax-property">Total before tax</span>
+                        <span class="bill-total-before-tax-value"></span>
+                    </div>
+                    <div class="after-tax-container">
+                        <span class="bill-total-after-tax-property">Total after tax</span>
+                        <span class="bill-total-after-tax-value"></span>
+                    </div>
+
+                    <div class="place-order-button-container">
+                        <button class="place-order-button">Place Your Order</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        
+
+
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/dayjs@1.11.10/dayjs.min.js"></script>
+    <script type="module" src="./scripts/checkout.js"></script>
+</body>
+
+</html>

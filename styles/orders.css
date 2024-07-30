@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+}
+header{
+    background-color: rgb(19, 25, 33);
+    display: flex;
+}
+
+.amazon-logo-container{
+    height: 100px;
+}
+.amazon-logo{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.all-button-container{
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.all-button{
+    height: 34px;
+    width: 34px;
+    margin-right: -1px;
+    background-color: orange;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.search-bar-container{
+    margin-top: 25px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+.search-bar{
+    height: 30px;
+    width: 500px;
+    padding-left: 20px;
+}
+
+.search-button-container{
+    margin-top: 25px;
+}
+
+
+.search-button{
+    height: 34px;
+    margin-left: -1px;
+    background-color: orange;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.cart-container{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.cart-quantity-container{
+    margin-left: 17px;
+    margin-bottom: -10px;
+    color: orange;
+}
+
+.your-order-text-container{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.products-order-container{
+    margin-top: 20px;
+    width: 800px;
+    margin-left: 200px;
+    border: 1px solid rgb(213, 217, 217);
+    border-radius: 10px;
+
+}
+
+.products-order-header-container{
+    display: flex;
+    background-color: rgb(240, 242, 242);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    border: 1px solid rgb(213, 217, 217);
+
+}
+
+.date-container{
+    margin-right: 50px;
+}
+
+.total-cost-contianer{
+    margin-right: 200px;
+}
+
+.products-order-body-container{
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+.product-info-container{
+    width: 250px;
+}
+.product-container{
+    margin-bottom: 60px;
+}
+
+
+
+.flex-container{
+    display: flex;
+}
+
+.product-image-container{
+    margin-right: 30px;
+}
+
+.buy-it-again-button{
+    margin-top: 10px;
+    background-color: rgb(255, 216, 20);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.track-package-button-container{
+    margin-left: 200px;
+}
+
+.track-package-button{
+    padding: 10px 40px;
+    border-radius: 4px;
+    border: 1px solid rgb(213, 217, 217);
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(100,100,100,50);
+    cursor: pointer;
+    
+}
+
