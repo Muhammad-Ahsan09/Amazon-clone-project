@@ -655,7 +655,7 @@ export function initXHR(fun)
 });
 
 
-xhr.open('GET', 'http://localhost:8000/products');
+xhr.open('GET', 'https://supersimple.dev/products');
 xhr.send();
 }
   
