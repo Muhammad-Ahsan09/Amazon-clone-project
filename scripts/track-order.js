@@ -2,7 +2,7 @@ import { products, initXHR } from "./products.js";
 import { cartQuantity } from "./amazon.js";
 
 
-
+let stage = 'p';
 document.querySelector('.cart-quantity').innerHTML = cartQuantity;
 
 let today = dayjs();
@@ -57,4 +57,37 @@ function loadPage() {
 
 document.querySelector('main').innerHTML = pageHTML;
 
+if(stage === 'p')
+{
+    let progressBar = document.querySelector('.progress-bar');
+
+    document.querySelector('.preparing').style.color = 'green';
+    
+    progressBar.style.width = '50px';
 }
+
+
+else if(stage === 's')
+{
+    let progressBar = document.querySelector('.progress-bar');
+
+    document.querySelector('.shipped').style.color = 'green';
+
+    progressBar.style.width = '400px';
+}
+
+else
+{
+    let progressBar = document.querySelector('.progress-bar');
+
+    document.querySelector('.delivered').style.color = 'green';
+
+    progressBar.classList.add('status-delivered');
+
+    progressBar.style.width = '800px';
+
+   
+    
+}
+}
+
